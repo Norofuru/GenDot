@@ -1,0 +1,102 @@
+.navbar-light.custom .nav-word{
+	font-size: 28px;
+	font-weight: bolder;
+	color: #525252;
+}
+
+.navbar-light.custom .nav-word:hover{
+	background-color: #7d6a49;
+	color: azure;
+}
+
+.nav-item-word{
+	font-size: 24px;
+	font-weight: bold;
+	color: #525252;
+}
+
+.imgBG{
+	display: flex;
+	position: relative;
+	/* 以當前css文件所在路徑為起點，用相對路徑 */
+	/* background-image: url(../assets/img/indexImg.jpg);  */
+	background-position: center; 
+	background-size: cover;
+	height: 700px;
+	margin-bottom: 50px;
+}
+
+@media screen and (max-width: 768px){
+	.imgBG{
+		height: 450px;
+	}
+}
+
+.imgBG::before{
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.imgBG .titleWord{
+	position: relative;
+}
+
+footer{
+	background-color: #f8f3e0;
+	justify-content: center;
+	width: 100%;
+}
+
+.url{
+	list-style-type: none;
+	align-items: center;
+}
+
+.down-nav-word{
+	font-size: 20px;
+	font-weight: bolder;
+	color: #525252;
+	text-decoration: none;
+}
+
+.down-nav-word:hover{
+	background-color: #7d6a49;
+	color: azure;
+}
+
+.icon{
+	height: 60px;
+}
+
+.word{
+	font-size: 20px;
+	color: #525252;
+}
+
+.top{
+	width: 6rem;
+	height: 6rem;
+	position: fixed;
+	z-index: 9999;
+	bottom: 2rem;
+	right: 2rem;
+}
+
+h1{
+	font-size: 48px;
+	font-weight: bolder;
+	color: #525252;
+}
+
+h2{
+	font-size: 36px;
+	font-weight: bolder;
+	color: #525252;
+}
+
+/* login */
