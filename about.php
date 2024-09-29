@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="assets/logo2.ico" />
-    <meta name="keywords" content="一鄉人, GenDot, Gendot, gendot" />
+    <meta name="keywords" content="一鄉人, GenDot, Gendot, gendot, NGO, Young飛全球行動計畫, Internationalstudents, Culturalexchange, International, culture, studentcommunity, sdgs, dei, 職涯, 求職, 國際學生, 文化, 文化交流. 國際" />
     <title>一鄉人GenDot</title>
     <link rel="stylesheet" href="css/reset.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
@@ -16,7 +16,7 @@
     <nav class="navbar navbar-expand-lg navbar-light custom" style="background-color: #f8f3e0;">
     <div class="container-fluid justify-content-lg-between">
         <!-- logo -->
-        <a class="navbar-brand ms-lg-5" href="index.php">
+        <a class="navbar-brand ms-lg-5" href="index.html">
             <img src="assets/img/logo1.png" alt="logo" height="70">
         </a>
         <!-- 切換元素 -->
@@ -29,16 +29,11 @@
             <li class="nav-item">
                 <a class="nav-link nav-word ms-2" href="#">關於我們</a>
             </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle nav-word ms-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    優良文章
-                </a>
-                <ul class="dropdown-menu ms-2" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item nav-item-word" href="#">訪談紀錄</a></li>
-                    <li><a class="dropdown-item nav-item-word" href="#">所有活動</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item nav-item-word" href="#">其他</a></li>
-                </ul>
+            <li class="nav-item">
+                <a class="nav-link nav-word ms-2" href="blog.html">部落格</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link nav-word ms-2" href="event.html">活動</a>
             </li>
             <li class="nav-item dropdown ">
                 <a class="nav-link dropdown-toggle nav-word ms-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -52,7 +47,7 @@
                 </ul>
             </li>
             <li class="nav-item ">
-                <a class="nav-link nav-word ms-2" href="login.php">登入</a>
+                <a class="nav-link nav-word ms-2" href="index_EN.html">EN</a>
             </li>
         </ul>
         </div>
@@ -60,11 +55,11 @@
     </nav>
     
     <!-- 大圖 -->
-    <div class="imgBG" style="background-image: url(assets/img/aboutImg.png); ">
+    <div class="imgBG" style="background-image: url(assets/img/aboutImg.jpg); ">
         <div class="titleWord mx-auto my-auto">
             <h1>關於一鄉人GenDot</h1>
             <hr>
-            <p class="text-center fs-5 fw-bold">所有異鄉人都可以成為一鄉人</p>
+            <p class="text-center fs-4 fw-bold">所有異鄉人都可以成為一鄉人</p>
         </div>
     </div>
 
@@ -81,72 +76,72 @@
             <h2>團隊成員</h2>
             <hr>
             <div>
-                <div class="card mb-3" style="">
+                <div class="card mb-3">
                     <div class="row g-0">
-                        <div class="col-md-4">
-                            <img src="assets/img/p1.png" class="w-100" alt="...">
+                        <div class="col-md-4 personImg">
+                            <img src="assets/img/person1.jpg" class="h-100 position-relative top-50 start-50 translate-middle" alt="the photo of leader">
                         </div>
                         <div class="col-md-8">
                         <div class="card-body">
-                            <h3 class="card-title fw-bold">黃宥嘉</h3>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <h3 class="card-title fw-bold fs-3">黃宥嘉</h3>
+                            <p class="card-text fs-4">發揮自己的影響力讓在台灣生活的外籍學子們能夠在這片土地找到歸屬感，並願意把這裡當作第二個家鄉。</p>
+                            <p class="card-text fs-5"><small class="text-muted">#INTP #寫作 #閱讀 #喜歡看各種展覽和劇 #慢熟 #沉著冷靜 #沒在做事時都在思考宇宙</small></p>
                         </div>
                         </div>
                     </div>
                 </div>
-                <div class="card mb-3" style="">
+                <div class="card mb-3">
                     <div class="row g-0">
-                        <div class="col-md-4">
-                            <img src="assets/img/p1.png" class="w-100" alt="...">
+                        <div class="col-md-4 personImg">
+                            <img src="assets/img/person2.jpg" class="h-100 position-relative top-50 start-50 translate-middle" alt="the photo of member2">
                         </div>
                         <div class="col-md-8">
                         <div class="card-body">
-                            <h3 class="card-title fw-bold">林釀吟</h3>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <h3 class="card-title fw-bold fs-3">林釀吟</h3>
+                            <p class="card-text fs-4">想為外籍學子盡一份力，使他們通過交流，更融入到台灣這塊土地上，讓台灣成為他們第二個家。</p>
+                            <p class="card-text fs-5"><small class="text-muted">#ISFP #畫畫 #唱歌 #打遊戲 總之是稱職的宅宅 #內向 #慢熟 但熟了會發現其實很瘋</small></p>
                         </div>
                         </div>
                     </div>
                 </div>
-                <div class="card mb-3" style="">
+                <div class="card mb-3">
                     <div class="row g-0">
-                        <div class="col-md-4">
-                            <img src="assets/img/p1.png" class="w-100" alt="...">
+                        <div class="col-md-4 personImg">
+                            <img src="assets/img/person3.jpg" class="h-100 position-relative top-50 start-50 translate-middle" alt="the photo of member3">
                         </div>
                         <div class="col-md-8">
                         <div class="card-body">
-                            <h3 class="card-title fw-bold">張雅琦</h3>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <h3 class="card-title fw-bold fs-3">張雅琦</h3>
+                            <p class="card-text fs-4">希望大家都可以在台灣找到一個安放自己的一隅，找到屬於自己生活步調，也期待能在這邊發現自己的價值，找到自己的夢想。</p>
+                            <p class="card-text fs-5"><small class="text-muted">#ENFJ #outdoor咖 #喜歡拍底片 #喜歡神祕學 #待人真誠 #發現特質的雙眼</small></p>
                         </div>
                         </div>
                     </div>
                 </div>
-                <div class="card mb-3" style="">
+                <div class="card mb-3">
                     <div class="row g-0">
-                        <div class="col-md-4">
-                            <img src="assets/img/p1.png" class="w-100" alt="...">
+                        <div class="col-md-4 personImg">
+                            <img src="assets/img/person4.jpg" class="h-100 position-relative top-50 start-50 translate-middle" alt="the photo of member4">
                         </div>
                         <div class="col-md-8">
                         <div class="card-body">
-                            <h3 class="card-title fw-bold">劉書宇</h3>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <h3 class="card-title fw-bold fs-3">劉書宇</h3>
+                            <p class="card-text fs-4">使台灣成為人才磁島。</p>
+                            <p class="card-text fs-5"><small class="text-muted">#INFP/ENFP #爬山 #閱讀 #語言學習 #嘗試新事物 #Ambiverts #有好奇心 #坦率的</small></p>
                         </div>
                         </div>
                     </div>
                 </div>
-                <div class="card mb-3" style="">
+                <div class="card mb-3">
                     <div class="row g-0">
-                        <div class="col-md-4">
-                            <img src="assets/img/p1.png" class="w-100" alt="...">
+                        <div class="col-md-4 personImg">
+                            <img src="assets/img/person5.jpg" class="h-100 position-relative top-50 start-50 translate-middle" alt="the photo of member5">
                         </div>
                         <div class="col-md-8">
                         <div class="card-body">
-                            <h3 class="card-title fw-bold">陳華俊</h3>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <h3 class="card-title fw-bold fs-3">陳華俊</h3>
+                            <p class="card-text fs-4">瞭解外籍學子來台灣的動機及初心，同理他們遇到的困境與挑戰，進一份微薄的心力，協助他們面對困難，最終讓更多外籍學子選擇在台灣長期發展。</p>
+                            <p class="card-text fs-5"><small class="text-muted">#ENFP #運動 #游泳 #美食 #旅遊 #ㄎ一尢 #不按牌底出牌 #隨和但有原則</small></p>
                         </div>
                         </div>
                     </div>
@@ -164,19 +159,20 @@
                 <ul class="url d-lg-flex mb-0 ps-0">
                     <li class="my-1"><a href="index.php" class="down-nav-word py-1 px-1">首頁</a></li>
                     <li class="my-1"><a href="about.php" class="down-nav-word py-1 px-1">關於我們</a></li>
-                    <li class="my-1"><a href="" class="down-nav-word py-1 px-1">優良文章</a></li>
+                    <li class="my-1"><a href="blog.html" class="down-nav-word py-1 px-1">部落格</a></li>
+                    <li class="my-1"><a href="" class="down-nav-word py-1 px-1">活動</a></li>
                     <li class="my-1"><a href="" class="down-nav-word py-1 px-1">合作夥伴</a></li>
-                    <li class="my-1"><a href="" class="down-nav-word py-1 px-1">登入</a></li>
+                    <li class="my-1"><a href="index_EN.html" class="down-nav-word py-1 px-1">EN</a></li>
                 </ul>
                 <ul class="url d-flex mb-0 ps-0">
-                    <li><a href="https://www.facebook.com/" target="_blank"><img src="assets/img/facebookIcon.png" alt="" class="icon px-2"></a></li>
-                    <li><a href="https://www.instagram.com/" target="_blank"><img src="assets/img/instagramIcon.png" alt="" class="icon px-2"></a></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=61566345500741" target="_blank"><img src="assets/img/facebookIcon.png" alt="" class="icon px-2"></a></li>
+                    <li><a href="https://www.instagram.com/gendot._.2024/" target="_blank"><img src="assets/img/instagramIcon.png" alt="" class="icon px-2"></a></li>
                 </ul>
             </div>
             <div class="justify-content-between d-flex">
                 <div class="d-flex align-middle">
                     <img src="assets/img/mail.png" alt="" class="icon">
-                    <p class="word m-auto ms-2 fw-bold">a@mail.com</p>
+                    <p class="word m-auto ms-2 fw-bold">gendot2024@gmail.com</p>
                 </div>
             </div>
             <hr>

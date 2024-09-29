@@ -30,7 +30,7 @@
                 <a class="nav-link nav-word ms-2" href="about.php">關於我們</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link nav-word ms-2" href="blog.php">部落格</a>
+                <a class="nav-link nav-word ms-2" href="#">部落格</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link nav-word ms-2" href="event.php">活動</a>
@@ -57,16 +57,19 @@
     <!-- 大圖 -->
     <div class="imgBG" style="background-image: url(assets/img/indexImg.jpg); ">
         <div class="titleWord mx-auto my-auto">
-            <h1>一鄉人GenDot</h1>
+            <h1 class="text-center">部落格</h1>
             <hr>
-            <p class="text-center fs-4 fw-bold">幫助您有更好的留台求職體驗</p>
+            <p class="text-center fs-4 fw-bold">來看看各種留台資訊吧！</p>
         </div>
     </div>
 
     <!-- 內容 -->
     <div class="container-lg pt-3">
         <div class="mx-4">
-            <h2>我們是誰？</h2>
+            <div class="d-flex justify-content-between">
+                <h2>留台就業懶人包</h2>
+                <a href="blog.html" class="readMore">查看更多...</a>
+            </div>
             <hr>
             <p class="fs-4 mb-5">
                 我們是GenDot一鄉人,來自台灣的非政府組織。<br/>
@@ -76,7 +79,7 @@
             </p>
             
             <div class="d-flex justify-content-between">
-                <h2>部落格</h2>
+                <h2>街頭訪問</h2>
                 <a href="blog.html" class="readMore">查看更多...</a>
             </div>
             <hr>
@@ -88,7 +91,10 @@
                 讓我們讓台灣成為留學生圓夢的第二個家。
             </p>
 
-            <h2>最新活動</h2>
+            <div class="d-flex justify-content-between">
+                <h2>台灣節慶介紹</h2>
+                <a href="blog.html" class="readMore">查看更多...</a>
+            </div>
             <hr>
             <p class="fs-4 mb-5">
                 表格預定可能大概<br/><br>
@@ -108,7 +114,7 @@
                 <ul class="url d-lg-flex mb-0 ps-0">
                     <li class="my-1"><a href="index.php" class="down-nav-word py-1 px-1">首頁</a></li>
                     <li class="my-1"><a href="about.php" class="down-nav-word py-1 px-1">關於我們</a></li>
-                    <li class="my-1"><a href="blog.php" class="down-nav-word py-1 px-1">部落格</a></li>
+                    <li class="my-1"><a href="#" class="down-nav-word py-1 px-1">部落格</a></li>
                     <li class="my-1"><a href="" class="down-nav-word py-1 px-1">活動</a></li>
                     <li class="my-1"><a href="" class="down-nav-word py-1 px-1">合作夥伴</a></li>
                     <li class="my-1"><a href="index_EN.html" class="down-nav-word py-1 px-1">EN</a></li>
